@@ -1,0 +1,51 @@
+.header, .footer{ 
+    background-color: #1f2937;
+    
+}
+.header{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+}
+.links{
+    color: white;
+    display: flex;
+    margin: 8px;
+    align-items: center;
+}
+button{
+    background-color: #3882F6;
+}
+.top-content{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #1f2937;  
+    color: white;
+}
+.top-content img{
+    width: 200px;
+}
+.mid-content{
+    display: flex;
+}
+.mid-content img{
+    height: 100px;
+    width: 100px;
+}
+.bottom-content{
+    background-color: #e5e7eb;
+}
+.final{
+    display: flex;
+}
+.footer{
+    display: flex;
+    color: white;
+    justify-content: center;
+    
+}

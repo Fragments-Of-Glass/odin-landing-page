@@ -5,7 +5,7 @@
 .header{
     color: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .logo{
     display: flex;
@@ -20,25 +20,45 @@
 }
 button{
     background-color: #3882F6;
+    border-radius: 10   px;
 }
 .top-content{
     display: flex;
     flex-wrap: wrap;
     background-color: #1f2937;  
     color: white;
+    justify-content: space-around;
+}
+.top-content text{
+    color: #e5e7eb;
 }
 .top-content img{
     width: 200px;
 }
+.start{
+    max-width: 150px;
+}
 .mid-content{
+    display: flex;
+    justify-content: center;
+}
+.description{
     display: flex;
 }
 .mid-content img{
     height: 100px;
     width: 100px;
 }
+.cat{
+    max-width: 100px;
+    gap: 10px;
+    text-align: center;
+}
 .bottom-content{
     background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .final{
     display: flex;

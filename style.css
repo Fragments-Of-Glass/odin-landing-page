@@ -1,3 +1,7 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
 .header, .footer{ 
     background-color: #1f2937;
     
@@ -20,7 +24,8 @@
 }
 button{
     background-color: #3882F6;
-    border-radius: 10   px;
+    border-radius: 10px;
+    color: white;
 }
 .top-content{
     display: flex;
@@ -44,6 +49,14 @@ button{
 }
 .description{
     display: flex;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 30px;
+    margin: 20px;
+}
+.container{
+    display: flex;  
+    gap: 20px;
 }
 .mid-content img{
     height: 100px;
@@ -51,7 +64,6 @@ button{
 }
 .cat{
     max-width: 100px;
-    gap: 10px;
     text-align: center;
 }
 .bottom-content{
@@ -61,11 +73,19 @@ button{
     align-items: center;
 }
 .final{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+.signup{
     display: flex;
+    border-radius: 10px;
+    color: white;
+    background-color: #3882F6;
 }
 .footer{
     display: flex;
     color: white;
     justify-content: center;
-    
+    align-items: flex-end;
 }
